@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="src/styles/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>UNIVERSO ANIMADO</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <i class="fa-solid fa-tv" id="nav_logo"> Universo Animado</i>
+
+        <ul id="nav_list">
+          <li class="nav-item active">
+            <a href="#home">Início</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#menu">Desenhos</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#testimonials">Personagens</a>
+          </li>
+        </ul>
+        <a href="#menu" class="btn-default">Explorar</a>
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item">
+            <a href="#home">Início</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#menu">Desenhos</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#testimonials">Personagens</a>
+          </li>
+        </ul>
+        <a href="#menu" class="btn-default">Explorar</a>
+      </div>
+    </header>
+
+    <main id="content">
+      <section id="home">
+        <div class="shape"></div>
+        <div id="cta">
+          <h1 class="title">
+            A diversão começa
+            <span>aqui!</span>
+          </h1>
+
+          <p class="description">
+            Relembre os desenhos que marcaram gerações e encontre seus
+            personagens favoritos.
+          </p>
+
+          <div id="cta_buttons">
+            <a href="#menu" class="btn-default"> Explorar desenhos </a>
+
+            <a href="#" id="phone_button">
+              <button class="btn-default">
+                <i class="fa-solid fa-play"></i>
+              </button>
+              Começar aventura
+            </a>
+          </div>
+          <div class="social-media-buttons">
+            <a href="">
+              <i class="fa-solid fa-tv"></i>
+            </a>
+
+            <a href="">
+              <i class="fa-solid fa-film"></i>
+            </a>
+
+            <a href="">
+              <i class="fa-solid fa-star"></i>
+            </a>
+          </div>
+        </div>
+        <div id="banner">
+          <img src="src/images/banner.png" alt="Universo Animado" />
+        </div>
+      </section>
+      <section id="menu">
+        <h2 class="section-title">Desenhos</h2>
+        <h3 class="section-subtitle">Clássicos que marcaram gerações</h3>
+
+        <!-- Pica Pau -->
+
+        <div id="dishes">
+          <div class="dish">
+            <img
+              src="src/images/pica-pau1.png"
+              class="dish-image"
+              alt="Pica-Pau"
+            />
+            <h3 class="dish-title">Pica-Pau</h3>
+            <span class="dish-description">
+              O pássaro mais maluco e divertido dos desenhos clássicos.
+            </span>
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>Clássico</h4>
+              <a
+                href="https://www.youtube.com/watch?v=-xwbZEmQPL8"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-default"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Pernalonga -->
+
+          <div class="dish">
+            <img
+              src="src/images/pernalonga.png"
+              class="dish-image"
+              alt="Pernalonga"
+            />
+            <h3 class="dish-title">Pernalonga</h3>
+            <span class="dish-description">
+              O coelho mais esperto e irreverente dos desenhos animados.
+            </span>
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>Comédia</h4>
+              <a
+                href="https://www.youtube.com/watch?v=6kBaPF8wkGA"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-default"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Doug -->
+
+          <div class="dish">
+            <img src="src/images/doug2.png" class="dish-image" alt="Doug" />
+            <h3 class="dish-title">Doug</h3>
+            <span class="dish-description">
+              Aventuras, amizades e descobertas que marcaram os anos 90.
+            </span>
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>Nostalgia</h4>
+              <a
+                href="https://www.youtube.com/watch?v=mPZuPUHT9cI"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-default"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Caverna do Dragão -->
+
+          <div class="dish">
+            <img
+              src="src/images/caverna-do-dragao.png"
+              class="dish-image image-group"
+              alt="Caverna do Dragão"
+            />
+            <h3 class="dish-title">Caverna do Dragão</h3>
+            <span class="dish-description">
+              Uma aventura inesquecível em um mundo cheio de magia e perigos.
+            </span>
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>Aventura</h4>
+              <a
+                href="https://youtu.be/dYqM2QUzUlE?si=sIthawb37r8b9I9-"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-default"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Pateta -->
+
+          <div class="dish">
+            <img src="src/images/pateta.png" class="dish-image" alt="Pateta" />
+            <h3 class="dish-title">Pateta</h3>
+            <span class="dish-description">
+              O personagem mais atrapalhado e divertido da turma da Disney.
+            </span>
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>Comédia</h4>
+              <a
+                href="https://youtu.be/grl4Q4QZA9c?si=VsLmTam9WysVrnrA"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-default"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Scooby Doo -->
+
+          <div class="dish">
+            <img
+              src="src/images/scooby-doo.png"
+              class="dish-image image-medium"
+              alt="Scooby-Doo"
+            />
+            <h3 class="dish-title">Scooby-Doo</h3>
+            <span class="dish-description">
+              Mistérios, fantasmas e muitas confusões com a turma mais medrosa
+              da TV.
+            </span>
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>Mistério</h4>
+              <a
+                href="https://youtu.be/ZydHnUTqArQ?si=CNu5EfF0_8z809aJ"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-default"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Coragem, o Cão Covarde -->
+
+          <div class="dish">
+            <img
+              src="src/images/cao-coragem.png"
+              class="dish-image"
+              alt="Cão Couragem"
+            />
+            <h3 class="dish-title">Coragem, o Cão Covarde</h3>
+            <span class="dish-description">
+              Coragem enfrenta seus maiores medos para proteger Muriel e
+              Eustácio.
+            </span>
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>Comédia e Terror</h4>
+              <a
+                href="https://youtu.be/gbeCLHUUin8?si=390aXAaLV4Grxgkt"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-default"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Tom e Jerry -->
+
+          <div class="dish">
+            <img
+              src="src/images/tom$jerry.png"
+              class="dish-image image-medium"
+              alt="Tom e Jerry"
+            />
+            <h3 class="dish-title">Tom e Jerry</h3>
+            <span class="dish-description">
+              Uma perseguição interminável cheia de confusões e muita diversão.
+            </span>
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>Comédia</h4>
+              <a
+                href="https://youtu.be/0S0L-iqUM-4?si=q_3j4kq6Zj2sWvgr"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-default"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Papa Léguas -->
+
+          <div class="dish">
+            <img
+              src="src/images/papa-leguas.png"
+              class="dish-image"
+              alt="Papa Léguas"
+            />
+            <h3 class="dish-title">Papa Léguas</h3>
+            <span class="dish-description">
+              Papa-Léguas sempre encontra um jeito de escapar dos planos do
+              Coiote.
+            </span>
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>Clássico</h4>
+              <a
+                href="https://youtu.be/MRa41uCeyVw?si=HhW6bSH-YvayWdnR"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-default"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Thundercats -->
+
+          <div class="dish">
+            <img
+              src="src/images/thundercats.png"
+              class="dish-image image-group"
+              alt="Thundercats"
+            />
+            <h3 class="dish-title">Thundercats</h3>
+            <span class="dish-description">
+              Heróis de Thundera unidos na luta contra as forças de Mumm-Ra.
+            </span>
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>Aventura</h4>
+              <a
+                href="https://youtu.be/OJ2DMdaQMUE?si=2crq2vu-UqYPf2jy"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-default"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Os Flintstones -->
+
+          <div class="dish">
+            <img
+              src="src/images/os-flintstones.png"
+              class="dish-image"
+              alt="Os Flintstones"
+            />
+            <h3 class="dish-title">Os Flintstones</h3>
+            <span class="dish-description">
+              A família mais divertida da Idade da Pedra em aventuras
+              pré-históricas.
+            </span>
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>Comédia</h4>
+              <a
+                href="https://youtu.be/Qs4KDer6oME?si=tI_pLLestxk65G6D"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-default"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Os Smurfs -->
+
+          <div class="dish">
+            <img
+              src="src/images/smurfs.png"
+              class="dish-image image-medium"
+              alt="Os Smurfs"
+            />
+            <h3 class="dish-title">Os Smurfs</h3>
+            <span class="dish-description">
+             Pequenos personagens azuis que vivem grandes aventuras em sua vila encantada.
+            </span>
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>Clássico</h4>
+              <a
+                href="https://youtu.be/R0JAhn7F0AQ?si=WnE95ocgYHE0eQIL"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-default"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Pantera Cor de Rosa -->
+
+          <div class="dish">
+            <img
+              src="src/images/pantera-cor-de-rosa.png"
+              class="dish-image image-medium"
+              alt="Pantera Cor de Rosa"
+            />
+            <h3 class="dish-title">Pantera Cor de Rosa</h3>
+            <span class="dish-description">
+              Elegante, esperta e sempre envolvida nas situações mais
+              engraçadas.
+            </span>
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>Clássico</h4>
+              <a
+                href="https://youtu.be/RvTQIOSJBIk?si=2XGg2brUdbk6d8IK"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-default"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Timão e Tumba -->
+
+          <div class="dish">
+            <img
+              src="src/images/timao&tumba.png"
+              class="dish-image image-medium"
+              alt="Timão e Tumba"
+            />
+            <h3 class="dish-title">Timão e Tumba</h3>
+            <span class="dish-description">
+              Uma dupla inseparável que vive aventuras com muito humor e Hakuna
+              Matata.
+            </span>
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>Clássico</h4>
+              <a
+                href="https://youtu.be/Ur4_-CSdTaw?si=FnxPIW8hlE4jQSbv"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-default"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Popeye -->
+
+          <div class="dish">
+            <img
+              src="src/images/popeye.png"
+              class="dish-image image-medium"
+              alt="Popeye"
+            />
+            <h3 class="dish-title">Popeye</h3>
+            <span class="dish-description">
+              O marinheiro que ganha uma força incrível depois de comer
+              espinafre.
+            </span>
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+              <h4>Clássico</h4>
+              <a
+                href="https://youtu.be/lkK4VRl5y3w?si=owJSFkUM9p-WXKWn"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-default"
+              >
+                <i class="fa-solid fa-play"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="testimonials">
+        <img
+          src="src/images/nostalgia.png"
+          id="testimonial_chef"
+          alt="Universo dos desenhos clássicos"
+        />
+        <div id="testimonial_content">
+          <h2 class="section-title">Nostalgia</h2>
+          <h3 class="section-subtitle">
+            Por que esses desenhos marcaram gerações
+          </h3>
+          <div id="feedbacks">
+            <div class="feedback">
+              <img src="src/images/tv.png" class="feedback-avatar" alt="" />
+              <div class="feedback-content">
+                <p>
+                  Uma viagem no tempo
+
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </p>
+                <p>
+                  "Desenhos que marcaram nossa infância e continuam divertindo
+                  novas gerações."
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div id="feedbacks">
+            <div class="feedback">
+              <img src="src/images/vhs.png" class="feedback-avatar" alt="" />
+              <div class="feedback-content">
+                <p>
+                  Clássicos Inesquecíveis
+
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </p>
+                <p>
+                  "Personagens, aventuras e histórias que atravessaram
+                  gerações."
+                </p>
+              </div>
+            </div>
+          </div>
+          <button class="btn-default">Ver mais clássicos</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="src/images/footer.png" alt="Footer" />
+      <div id="footer_items">
+        <span id="copyright">
+  &copy; 2026 Universo Animado. Todos os direitos reservados. | Desenvolvido por <strong> "José Correia Carvalho"</strong>
+</span>
+        
+        <div class="social-media-buttons">
+          <a href="">
+            <i class="fa-solid fa-tv"></i>
+          </a>
+
+          <a href="">
+            <i class="fa-solid fa-film"></i>
+          </a>
+
+          <a href="">
+            <i class="fa-solid fa-star"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+  </body>
+</html>
