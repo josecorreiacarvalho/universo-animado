@@ -20,6 +20,22 @@ $(document).ready(function () {
       behavior: "smooth",
     });
   });
+
+  const music = document.getElementById("background_music");
+const musicBtn = document.getElementById("music_btn");
+const musicIcon = musicBtn.querySelector("i");
+
+musicBtn.addEventListener("click", function () {
+  if (music.paused) {
+    music.play();
+    musicIcon.classList.remove("fa-volume-high");
+    musicIcon.classList.add("fa-volume-xmark");
+  } else {
+    music.pause();
+    musicIcon.classList.remove("fa-volume-xmark");
+    musicIcon.classList.add("fa-volume-high");
+  }
+});
   
 
   $(window).on("scroll", function () {
